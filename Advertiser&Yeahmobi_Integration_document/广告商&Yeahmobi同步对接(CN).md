@@ -3,9 +3,9 @@
 #### 一．对接方案说明
 &emsp;&emsp;激活数是广告商主衡量转化效果的重要指标，为更加高效的实现和广告主对接，Yeahmobi可匹配广告商提供多种转化归因方式的对接。
 
-数据流示意图：  
+&emsp;&emsp;数据流示意图：  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/广告商&Yeahmobi异步对接(S2S)(CN).png" width="75%" height="75%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/广告商&Yeahmobi异步对接(CN).png" width="75%" height="75%" /></div>
 
 &emsp;&emsp;流程说明：
 - 用户点击广告，Yeammobi收集点击数据并进行归类处理。
@@ -52,7 +52,7 @@ ympostback.link 为YM postback域名，请咨询业务或技术人员获取详�
 
 1. 广告主转化一直回调失败：
 
-流程说明：核对点击通知时Transaction_id是否有进行宏替换，Yeahmobi Transaction_id共计67位，必须按照标准的Postback链接回调，若回调时提示Unknown Transaction_id Format则表示格式非法。
+&emsp;&emsp;核对点击通知时Transaction_id是否有进行宏替换，Yeahmobi Transaction_id共计67位，必须按照标准的Postback链接回调，若回调时提示Unknown Transaction_id Format则表示格式非法。
 
 2. 如何判断广告主回调转化成功：
 
