@@ -1,6 +1,6 @@
 ## Advertiser&Yeahmobi Integration(S2S)
 ### 2018.12
-1. Integration Description
+#### 1. Integration Description
 
 The transaction data is the most important data of Key Performance Indicator for advertising efferc. In order to reduce the time of redirect to landing page for users, Yeahmobi systeme support S2S integration for advertiser.
 Data process：
@@ -10,7 +10,7 @@ Yeahmobi system filter the click data by Geo/Platform/device_os and other filter
 
 When conversion event happens, advertiser system will collect conversion date. And the legal conversion data will sent to Yeahmobi.
 
-2. Parameter Description
+#### 2. Parameter Description
 
 Transaction_id：unique track ID，generate by Yeahmobi.
 
@@ -37,14 +37,15 @@ link example：
 
 Tracking Link：
 
-https://advertiser.link?adv1={transaction_id}&adv2 ={affiliate_id}&adv3={sub_affiliate_id}&adv4={idfa}&adv5 ={google_adv_id}&adv_ip=${ip}&adv_ua=${user_agent}&adv_click_time=${click_time_mills}&callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}
+<https://advertiser.link?adv1={transaction_id}&adv2={affiliate_id}&adv3={sub_affiliate_id}&adv4={idfa}&adv5={google_adv_id}&adv_ip=${ip}&adv_ua=${user_agent}&adv_click_time=${click_time_mills}&callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}>
 
 Post back：
 
-https://ympostback.link?transaction_id={adv1}&active_time={adv_conv_time }&client_ip={adv_conv_ip}&revenue={adv_cost}&carrier={adv_carriers}。
+<https://ympostback.link?transaction_id={adv1}&active_time={adv_conv_time}&client_ip={adv_conv_ip}&revenue={adv_cost}&carrier={adv_carriers}>
+
 ympostback.link is the domain of YM postback，please contact account manager for detail information
 
-3. questions
+#### 3. questions
 
 a.postback fail：
 
