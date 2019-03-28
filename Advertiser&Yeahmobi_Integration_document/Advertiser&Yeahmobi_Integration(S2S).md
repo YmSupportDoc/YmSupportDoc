@@ -5,7 +5,7 @@
 The transaction data is the most important data of Key Performance Indicator for advertising efferc. In order to reduce the time of redirect to landing page for users, Yeahmobi systeme support S2S integration for advertiser.
 Data process：
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/Advertiser&Yeahmobi_Integration(S2S).png" width="100%" height="100%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/Advertiser&Yeahmobi_Integration(S2S).png" width="75%" height="75%" /></div>
 
 user click the advertisement, and Yeahmobi system collect the click data.
 Yeahmobi system filter the click data by Geo/Platform/device_os and other filter condition. The click which matchs the condition will redirect to landing page. At the same time Yeahmobi system will send click notification to advertiser system.
