@@ -5,6 +5,8 @@
 The transaction data is the most important data of Key Performance Indicator for advertising efferc. In order to reduce the time of redirect to landing page for users, Yeahmobi systeme support S2S integration for advertiser.
 Data process：
 
+ <div align=center>![Date Processs]( ../Advertiser&Yeahmobi_Integration_document/Advertiser&Yeahmobi_Integration(S2S).png "Date Processs")</div>
+
 user click the advertisement, and Yeahmobi system collect the click data.
 Yeahmobi system filter the click data by Geo/Platform/device_os and other filter condition. The click which matchs the condition will redirect to landing page. At the same time Yeahmobi system will send click notification to advertiser system.
 
@@ -12,12 +14,12 @@ When conversion event happens, advertiser system will collect conversion date. A
 
 #### 2. Parameter Description
 
-Transaction_id：unique track ID，generate by Yeahmobi.
+Transaction_id：unique track ID,generate by Yeahmobi.
 
-notice：if advertiser use callback url，the call back link is
+notice：if advertiser use callback url,the call back link is
 callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}。
 
-ymcallback.link is the domain of ymcallback，please contact account manager for detail information.
+ymcallback.link is the domain of ymcallback,please contact account manager for detail information.
 
 idfa：IOS Offer device id
 
@@ -43,7 +45,7 @@ Post back：
 
 <https://ympostback.link?transaction_id={adv1}&active_time={adv_conv_time}&client_ip={adv_conv_ip}&revenue={adv_cost}&carrier={adv_carriers}>
 
-ympostback.link is the domain of YM postback，please contact account manager for detail information
+ympostback.link is the domain of YM postback,please contact account manager for detail information
 
 #### 3. questions
 
