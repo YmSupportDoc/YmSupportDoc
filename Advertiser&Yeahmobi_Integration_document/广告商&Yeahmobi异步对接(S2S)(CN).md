@@ -1,11 +1,13 @@
 ## Yeahmobi激活转化异步对接方案
 ### 2018年12月
 #### 一．对接方案说明
-&emsp&emsp激活数是广告商主衡量转化效果的重要指标，为减少用户跳转下载页面的等待时间，Yeahmobi提供异步对接方式。
+&emsp;&emsp;激活数是广告商主衡量转化效果的重要指标，为减少用户跳转下载页面的等待时间，Yeahmobi提供异步对接方式。
 
-数据流示意图：
+&emsp;&emsp;数据流示意图：
 
-&emsp&emsp流程说明：流程说明：
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/广告商&Yeahmobi异步对接(S2S)(CN).png" width="75%" height="75%" /></div>
+
+&emsp;&emsp;流程说明：
 - 用户点击广告，Yeammobi收集点击数据并进行归类处理。
 - 按与广告商约定的Offer推广流量限制进行国家、Platform、Device_os等条件过滤，符合的点击用户跳转下载页，同时Yeamobi按照广告商提供的上报链接由服务器进行点击通知。
 - 广告主收到用户激活数据后与Yeahmobi点击数据进行对比，若为Yeahmobi带来的合规用户，则将Tracking link中的追踪ID（Transaction_id）回传给Yeammobi。
@@ -56,12 +58,12 @@ ympostback.link 为YM postback域名，请咨询业务或技术人员获取详�
 
 1. 广告主转化一直回调失败：
 
- &emsp&emsp核对点击通知时Transaction_id是否有进行宏替换，Yeahmobi Transaction_id共计67位，必须按照标准的Postback链接回调，若回调时提示Unknown Transaction_id Format则表示格式非法。
+&emsp;&emsp;核对点击通知时Transaction_id是否有进行宏替换，Yeahmobi Transaction_id共计67位，必须按照标准的Postback链接回调，若回调时提示Unknown Transaction_id Format则表示格式非法。
 
 2. 如何判断广告主回调转化成功：
 
-&emsp&emsp转化回调时返回：success=true;conversion accepted (please check report for final verification result)。
+&emsp;&emsp;转化回调时返回：success=true;conversion accepted (please check report for final verification result)。
 
 3. 对参数是否支持格式处理：
 
-&emsp&emsp可根据广告商要求，对所传参数进行大小写转化，格式化日期，URL encode，Md5加密，timestamp去毫秒转化处理。
+&emsp;&emsp;可根据广告商要求，对所传参数进行大小写转化，格式化日期，URL encode，Md5加密，timestamp去毫秒转化处理。
