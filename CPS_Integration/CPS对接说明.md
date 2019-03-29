@@ -1,10 +1,10 @@
 ## CPS 对接说明
 
-目前Yeahmobi支持s2s的CPS对接方式，根据不同的分成模式，提供如下两种对接方式：
+&emsp;&emsp;目前Yeahmobi支持s2s的CPS对接方式，根据不同的分成模式，提供如下两种对接方式：
 
 ### 回传订单金额模式
 
-适用于针对产品的收益分成是固定比例，在Yeahmobi后台配置好以后，当广告主端有交易发生时，发起一次http请求调用以下url并传入订单金额，Yeahmobi会自行计算应得收益。
+&emsp;&emsp;适用于针对产品的收益分成是固定比例，在Yeahmobi后台配置好以后，当广告主端有交易发生时，发起一次http请求调用以下url并传入订单金额，Yeahmobi会自行计算应得收益。
 
 URL: <http://yeahmobi-postback-domain/mconv?transaction_id={transaction_id}&event=purchase&order_id={order_id}&order_amount={order_amount}&external_id={external_id}&source={souce_name}>
 
@@ -19,7 +19,7 @@ source|广告主标记，广告主自行配置，一般为广告主名称，主�
 
 ### 回传收益模式
 
-适用于产品有不固定的收益分成，或者针对产品的分成不是比例，是固定的金额。当广告主端有交易发生时，发起一次http请求调用以下url并直接传入Yeahmobi应得收益。
+&emsp;&emsp;适用于产品有不固定的收益分成，或者针对产品的分成不是比例，是固定的金额。当广告主端有交易发生时，发起一次http请求调用以下url并直接传入Yeahmobi应得收益。
 
 URL: <http://yeahmobi-postback-domain/mconv?transaction_id={transaction_id}&event=purchase&revenue={revenue}&external_id={external_id}&source={souce_name}> 
 
