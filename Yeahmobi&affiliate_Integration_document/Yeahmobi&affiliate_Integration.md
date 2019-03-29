@@ -4,7 +4,7 @@
 
 Data process：  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi&affiliate_Integration.png" width="75%" height="75%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi&affiliate_Integration.png" width="100%" height="100%" /></div>
 
 - user click the advertisement, and affliate system collect the click data.
 affliate system filter the click data by Geo/Platform/device_os and other filter condition. 
@@ -48,9 +48,8 @@ Post back：
 Yeahmobi system filter the click data by Geo/Platform/device_os and other filter condition, so some click is not match the condition will rejected by Yeahmobi system.
 
 - illegal data：
-   
-+ unexpected redirect code: C003 message:offer[***] checkGeoLimits failed at regionLimits when region=CN (SAR)_CN(192.32.250.50)
-unexpected redirect code: C004 message:offer[***] checkUserAgentLimits failed at platformLimits when platform=macOS
-+ unexpected redirect code: C001 message:offer[****] checkPermission failed at affLimits with affid=11111
-unexpected redirect code: C026 message:google_adv_id required for offer[11111], pls check
-+ unexpected redirect code: C026 message:idfa required for offer[11111], pls check
+   + unexpected redirect code: C003 message:offer[***] checkGeoLimits failed at regionLimits when region=CN (SAR)_CN(192.32.250.50)
+   + unexpected redirect code: C004 message:offer[***] checkUserAgentLimits failed at platformLimits when platform=macOS
+   + unexpected redirect code: C001 message:offer[****] checkPermission failed at affLimits with affid=11111
+   + unexpected redirect code: C026 message:google_adv_id required for offer[11111], pls check
+   + unexpected redirect code: C026 message:idfa required for offer[11111], pls check

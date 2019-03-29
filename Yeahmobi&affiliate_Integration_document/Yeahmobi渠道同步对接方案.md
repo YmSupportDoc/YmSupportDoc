@@ -6,7 +6,7 @@
 
 &emsp;&emsp;数据流示意图：  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi渠道同步对接方案.png" width="75%" height="75%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi渠道同步对接方案.png" width="100%" height="100%" /></div>
 
 流程说明:
 - 用户点击广告，渠道对用户点击处理。
