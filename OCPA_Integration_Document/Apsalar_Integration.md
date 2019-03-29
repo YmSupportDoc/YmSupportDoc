@@ -14,7 +14,7 @@ Event Content/Payment Amount|event_value|{EVTATTR:$Attribute_Name}/{AMOUNT}
 Device ID|(android_id or idfa or win_aid)|device_id|{IDFA}|{AIFA}|{}
 Android ID|android_id|{AIFA}/{COALESCE|{AIFA},{ANDI}}
 IOS ID|idfa|{IDFA}
-windows ID|win_aid|XX
+windows ID|win_aid|  
 IMEI Code|imei|{IP}
 Mac Address|mac|  
 Google Play Advertising ID|google_adv_id/{AIFA}
@@ -31,12 +31,12 @@ Unique ID|unique_id|{COALESCE/{APID},{CLID}}
 
 1. Retention
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration1.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration1.png" width="90%" height="90%" /></div>
 
 2. Unique event
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration2.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration2.png" width="90%" height="90%" /></div>
 
 3. Repeated event
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration3.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration3.png" width="90%" height="90%" /></div>
