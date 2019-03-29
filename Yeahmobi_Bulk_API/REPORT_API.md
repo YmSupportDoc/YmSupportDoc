@@ -22,6 +22,7 @@ time_zone|No|Time zone hour offset. Default to UTC if not specified. E.g. get th
 
 #### Response
 **Status**
+
 The successful response will return all statistic data together with a success flag. When there is error, the response will show flag “fail” and a detail message.
 
 msg|Description
