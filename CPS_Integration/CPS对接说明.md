@@ -26,6 +26,7 @@ URL: <http://yeahmobi-postback-domain/mconv?transaction_id={transaction_id}&even
 **注：以下参数均为必须项。**
 
 参数	|说明
+--|--
 transaction_id|Yeahmobi生成的唯一识别码，点击时带入，回调时需要返回
 revenue|订单的Yeahmobi应得收益，格式为数字，默认货币单位是美元。例如revenue=100，Yeahmobi收到后会认为应得收益为100。
 external_id|交易的唯一识别id，每一次请求的external_id应具有唯一性，由广告主提供
