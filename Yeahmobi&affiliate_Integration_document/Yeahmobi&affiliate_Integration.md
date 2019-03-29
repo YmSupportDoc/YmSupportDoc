@@ -4,6 +4,8 @@
 
 Data process：  
 
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi&affiliate_Integration.png" width="75%" height="75%" /></div>
+
 - user click the advertisement, and affliate system collect the click data.
 affliate system filter the click data by Geo/Platform/device_os and other filter condition. 
 - The click which matchs the condition will redirect to Yeahmobi system.
