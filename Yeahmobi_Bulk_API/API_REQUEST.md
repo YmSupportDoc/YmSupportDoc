@@ -13,11 +13,7 @@ The request supports advanced filters to retrieve desired products.
 Parameters|Description
 --|--
 filters[product_category]|Filter by the primary category of the product. The available values are: app download, mobile content. E.g. filters[product_category][$eq]=App Download.<br>Support [$eq] and [$in]
-filters[product_category_secondary]|Filter by the secondary category of the product. The available values are:<br>For App Download:<br>
-- Google Play
-- Itune
-- Online DDL
-- OtherSupport [$eq] and [$in]
+filters[product_category_secondary]|Filter by the secondary category of the product. The available values are:<br>For App Download:<br>- Google Play<br>- Itune<br>- Online DDL<br>- Other<br>Support [$eq] and [$in]
 filters[app_category_primary]|Filter by the primary category of app, for app download product only. E.g. find out all game and tools apps: filters[app_category_primary][$in]=game,tool<br>Support [$eq] and [$in]
 filters[app_category_secondary]|Filter by the secondary category of app, for app download product only.<br>Support [$eq] and [$in]
 filters[countries]|Filter by the targeted countries of the product.<br>Support [$eq] and [$in]
