@@ -18,7 +18,7 @@ Windows ID|win_aid|{windows_aid}
 IMEI Code|imei|{device_id}
 Mac Address|mac|{mac_address}
 Google Play Advertising ID|google_adv_id|{google_aid}
-Unique ID|unique_id|{firstnotempty({unid}|{tracking_id}|{transaction_id}|{android_id}|{ios_ifa})} 
+Unique ID|unique_id|{firstnotempty({unid}/{tracking_id}/{transaction_id}/{android_id}/{ios_ifa})} 
 Payment Amount|event_value|{amount} 
 
 ### MAT DOC:
@@ -26,7 +26,6 @@ Payment Amount|event_value|{amount}
 <https://help.tune.com/marketing-console/macros-in-postback-urls/>
 
 <https://help.tune.com/partner-center/advertising-partners-implementing-server-postbacks-for-reengagement-campaigns/#Basic>
-
 
 ### Advertiser Authorization for Event
 
