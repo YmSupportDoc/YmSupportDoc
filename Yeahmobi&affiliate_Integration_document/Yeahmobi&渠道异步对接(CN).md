@@ -11,7 +11,7 @@
 - 按照Yeahmobi提供的offer tracking link添加转化参数后302跳转。
 - Yeahmobi收到点击后对相关数据进行流量校验，判断是否符合推广要求。
 - Yeahmobi确认到有效激活后进行转化数据匹配，并按照渠道设置的Postback发起转化回调。
-- 
+
 #### 二．参数说明
 
 - aff_sub：追踪ID，由渠道生成。
