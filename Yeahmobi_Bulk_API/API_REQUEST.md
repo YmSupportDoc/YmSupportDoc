@@ -11,19 +11,22 @@ devapp_id|Yes|Publisher’s app Id, used to pull offers specific for this app
 The request supports advanced filters to retrieve desired products.
 
 Parameters|Description
-filters[product_category]|Filter by the primary category of the product. The available values are: app download, mobile content. E.g. filters[product_category][$eq]=App Download.Support [$eq] and [$in]
+--|--
+filters[product_category]|Filter by the primary category of the product. The available values are: app download, mobile content. E.g. filters[product_category][$eq]=App Download.
+Support [$eq] and [$in]
 filters[product_category_secondary]|Filter by the secondary category of the product. The available values are:
 For App Download:
 - Google Play
 - Itune
 - Online DDL
 - OtherSupport [$eq] and [$in]
-filters[app_category_primary]|Filter by the primary category of app, for app download product only. E.g. find out all game and tools apps: filters[app_category_primary][$in]=game,tool  Support [$eq] and [$in]
+filters[app_category_primary]|Filter by the primary category of app, for app download product only. E.g. find out all game and tools apps: filters[app_category_primary][$in]=game,tool
+Support [$eq] and [$in]
 filters[app_category_secondary]|Filter by the secondary category of app, for app download product only.
 Support [$eq] and [$in]
-filters[countries]|Filter by the targeted countries of the product.Support [$eq] and [$in]
+filters[countries]|Filter by the targeted countries of the product.
+Support [$eq] and [$in]
 filters[incent_allowed]|Filter the product based on if the incent traffic is allowed. The available values are: true, false. 
-
 filters[allowed_traffic]|Filter the product based on the allowed traffic type. The available values are:
 - Wifi Traffic
 - Absolutely no Incentivization
