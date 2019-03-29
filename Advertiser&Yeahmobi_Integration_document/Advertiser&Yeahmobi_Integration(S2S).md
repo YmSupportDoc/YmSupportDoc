@@ -17,7 +17,8 @@ When conversion event happens, advertiser system will collect conversion date. A
 Transaction_id：unique track ID, generate by Yeahmobi.
 
 notice：if advertiser use callback url, the call back link is
-callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}。
+
+***callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}***
 
 ymcallback.link is the domain of ymcallback, please contact account manager for detail information.
 
@@ -51,12 +52,12 @@ ympostback.link is the domain of YM postback, please contact account manager for
 
 a.postback fail：
 
-  Please check the Transaction_id data. Transaction_id is a 67 bits string, please make sure the format is right.
+Please check the Transaction_id data. Transaction_id is a 67 bits string, please make sure the format is right.
 
 b.how to judge postback success：
 
-  if the postback result is "success=true;conversion accepted (please check report for final verification result)。" means the postback success.
+if the postback result is "success=true;conversion accepted (please check report for final verification result)。" means the postback success.
 
 c.parameter support：
 
-  Yeahmobi system support the parameter format by requirement such as encode, MD5, captital and small letter.
+Yeahmobi system support the parameter format by requirement such as encode, MD5, captital and small letter.
