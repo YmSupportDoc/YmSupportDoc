@@ -12,27 +12,27 @@ Data process：
 
 #### 2. Parameter Description
 
-Transaction_id：unique track ID, generate by Yeahmobi.
+- transaction_id：unique track ID, generate by Yeahmobi.
 
 notice：if advertiser use callback url, the call back link is
 
-**callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}**
+***callback=http%3A%2F%2Fymcallback.link%2Fconv%3Ftransaction_id%3D{transaction_id}%26affiliate_id%3D{affiliate_id}***
 
 ymcallback.link is the domain of ymcallback, please contact account manager for detail information
 
-idfa：IOS Offer device id
+- idfa：IOS Offer device id
 
-google_adv_id：Android device id
+- google_adv_id：Android device id
 
-affiliate_id：Yeahmobi affiliate id
+- affiliate_id：Yeahmobi affiliate id
 
-sub_affiliate_id：Yeahmobi sub_affiliate id
+- sub_affiliate_id：Yeahmobi sub_affiliate id
 
-active_time：active time, if there is no active_time in postback parameter, Yeahmobi system will user receive date as active time.
+- active_time：active time, if there is no active_time in postback parameter, Yeahmobi system will user receive date as active time.
 
-Client_ip： client ip for transaction event
+- client_ip： client ip for transaction event
 
-Revenue：If use Dynamic Revenue for integration, advertiser must add this parameter in postback.
+- revenue：If use Dynamic Revenue for integration, advertiser must add this parameter in postback.
 
 link example：Tracking Link：
 
@@ -46,14 +46,14 @@ ympostback.link is the domain of YM postback, please contact account manager for
 
 #### 3. questions
 
-a. postback fail：
+- postback fail：
 
-  Please check the Transaction_id data. Transaction_id is a 67 bits string, please make sure the format is right.
+Please check the Transaction_id data. Transaction_id is a 67 bits string, please make sure the format is right.
 
-b. how to judge postback success：
+- how to judge postback success：
 
-  if the postback result is "success=true;conversion accepted (please check report for final verification result)。" means the postback success.
+if the postback result is "success=true;conversion accepted (please check report for final verification result)。" means the postback success.
 
-c. parameter support：
+- parameter support：
 
-  Yeahmobi system support the parameter format by requirement such as encode, MD5, captital and small letter.
+Yeahmobi system support the parameter format by requirement such as encode, MD5, captital and small letter.
