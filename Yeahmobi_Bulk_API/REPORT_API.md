@@ -4,7 +4,7 @@
 Get general statistic data of each offer or app during a certain time range.
 
 #### Request
-<http://api.yeahmobi.com/v1/Report/stat?api_token=MY_API_TOKEN&start_time=YYYY-MM-DD&emsp;HH:MM:SS&end_time=YYYY-MM-DD&emsp;HH:MM:SS&timezone=REPORT_TIME_ZONE&devapp_id=MY_APP_ID>
+<http://api.yeahmobi.com/v1/Report/stat?api_token=MY_API_TOKEN&start_time=YYYY-MM-DD&ensp;HH:MM:SS&end_time=YYYY-MM-DD&ensp;HH:MM:SS&timezone=REPORT_TIME_ZONE&devapp_id=MY_APP_ID>
 
 Parameters|Required|Description
 --|--|-- 

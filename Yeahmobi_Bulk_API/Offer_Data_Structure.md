@@ -58,9 +58,9 @@ devices|The targeting devices of the offer, including device brand and model
 device_os|The targeting device os of the offer
 countries|The targeting country code of the offer which conform to ISO-3166-1
 carriers|The targeting carriers of the offer
-```
-Sample:
 
+Sample:
+```
 "targeting": {
     "platforms": ["Android"],
     "devices": ["HTC ],
