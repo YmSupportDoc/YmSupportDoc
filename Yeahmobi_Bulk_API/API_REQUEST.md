@@ -18,35 +18,4 @@ filters[app_category_primary]|Filter by the primary category of app, for app dow
 filters[app_category_secondary]|Filter by the secondary category of app, for app download product only.<br>Support [$eq] and [$in]
 filters[countries]|Filter by the targeted countries of the product.<br>Support [$eq] and [$in]
 filters[incent_allowed]|Filter the product based on if the incent traffic is allowed. The available values are: true, false. 
-filters[allowed_traffic]|Filter the product based on the allowed traffic type.<br>The available values are:<br>
-- Wifi Traffic
-- Absolutely no Incentivization
-- Gateway/Content Lock Traffic
-- Usage of words like "Free"
-- 16+
-- 3G/4G
-- 18+
-- Incentivization needs Approval
-- Invalid or duplicate leads unaccepted
-- App Discovery Traffic
-- Desktop Traffic
-- Email with Opt-Out only
-- E-Mailings
-- Facebook Traffic
-- Adult Content
-- Hard-Incentivized
-- Icon-Drop Traffic
-- Illegal Filesharing
-- Opera Traffic
-- Pop Traffic
-- Push Notifications
-- Search
-- Social Networks
-- Virtual Currency Traffic
-- Redirect Traffic
-- Cash-Backs/GPT
-- Co-Reg
-- Display traffic
-- Google Adwords Traffic
-- In-App Display traffic
-- SMS Traffic<br>Support [$eq] and [$in]
+filters[allowed_traffic]|Filter the product based on the allowed traffic type.<br>The available values are:<br>- Wifi Traffic<br>- Absolutely no Incentivization<br>- Gateway/Content Lock Traffic<br>- Usage of words like "Free"<br>- 16+<br>- 3G/4G<br>- 18+<br>- Incentivization needs Approval<br>- Invalid or duplicate leads unaccepted<br>- App Discovery Traffic<br>- Desktop Traffic<br>- Email with Opt-Out only<br>- E-Mailings<br>- Facebook Traffic<br>- Adult Content<br>- Hard-Incentivized<br>- Icon-Drop Traffic<br>- Illegal Filesharing<br>- Opera Traffic<br>- Pop Traffic<br>- Push Notifications<br>- Search<br>- Social Networks<br>- Virtual Currency Traffic<br>- Redirect Traffic<br>- Cash-Backs/GPT<br>- Co-Reg<br>- Display traffic<br>- Google Adwords Traffic<br>- In-App Display traffic<br>- SMS Traffic<br>Support [$eq] and [$in]
