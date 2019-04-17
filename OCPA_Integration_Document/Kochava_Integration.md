@@ -31,10 +31,10 @@ Payment Amount|event_value|{amount}
 
 The green on the left means there is no setting problem. Orange on the left means some parameter is missing. Blue on the left means postback hasn't been chosen.
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Kochava_Integration1.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Kochava_Integration1.png" width="70%" height="70%" /></div>
 
 There are two options for this delivery method. ALL and Network only. If “ALL” is chosen, all advertisers postback events will be delivered.  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Kochava_Integration2.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Kochava_Integration2.png" width="70%" height="70%" /></div>
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Kochava_Integration3.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Kochava_Integration3.png" width="70%" height="70%" /></div>

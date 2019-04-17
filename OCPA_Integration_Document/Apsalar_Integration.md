@@ -31,12 +31,12 @@ Unique ID|unique_id|{COALESCE/{APID},{CLID}}
 
 1. Retention
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration1.png" width="90%" height="90%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Apsalar_Integration1.png" width="90%" height="90%" /></div>
 
 2. Unique event
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration2.png" width="90%" height="90%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Apsalar_Integration2.png" width="90%" height="90%" /></div>
 
 3. Repeated event
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/Apsalar_Integration3.png" width="90%" height="90%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Apsalar_Integration3.png" width="90%" height="90%" /></div>

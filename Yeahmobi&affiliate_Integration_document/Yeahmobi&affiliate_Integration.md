@@ -4,7 +4,7 @@
 
 Data process：  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi&affiliate_Integration.png" width="100%" height="100%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Yeahmobi&affiliate_Integration.png" width="100%" height="100%" /></div>
 
 - user click the advertisement, and affliate system collect the click data.
 affliate system filter the click data by Geo/Platform/device_os and other filter condition. 

@@ -31,6 +31,6 @@ Payment Amount|event_value|{amount}
 
 1. Android configuration Postback Template Select YM_NEW_Event_Android_oCPA
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/OCPA_Integration_Document/MAT_INTEGRATION.png" width="70%" height="70%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/MAT_INTEGRATION.png" width="70%" height="70%" /></div>
 
 2. IOS configuration is as shown above. postbackTemplates Select YM_NEW_Event_iOS_oCPA

@@ -5,7 +5,7 @@
 
 &emsp;&emsp;Yeahmobi展示数据统计方案：渠道将素材链接（creatives_url）嵌在广告位，渠道通过请求触发展示事件，Yeahmobi后台进行展示事件的统计。
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Yeahmobi&affiliate_Integration_document/Yeahmobi&渠道展示数据统计(CN).png" width="100%" height="100%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Yeahmobi&渠道展示数据统计(CN).png" width="100%" height="100%" /></div>
 
 **报表数据说明：由于展示数据是离线方式采集和计算，所以通常有1~2小时延迟。**
 

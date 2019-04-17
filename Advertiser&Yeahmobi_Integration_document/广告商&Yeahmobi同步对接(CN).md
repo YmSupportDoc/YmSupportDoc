@@ -5,7 +5,7 @@
 
 &emsp;&emsp;数据流示意图：  
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/广告商&Yeahmobi同步对接(CN).png" width="75%" height="75%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/广告商&Yeahmobi同步对接(CN).png" width="75%" height="75%" /></div>
 
 &emsp;&emsp;流程说明：
 - 用户点击广告，Yeammobi收集点击数据并进行归类处理。

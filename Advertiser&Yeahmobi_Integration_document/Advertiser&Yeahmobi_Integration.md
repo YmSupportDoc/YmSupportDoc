@@ -4,7 +4,7 @@
 #### 1. Integration Description
 Data process：
 
-<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/Advertiser&Yeahmobi_Integration_document/Advertiser&Yeahmobi_Integration.png" width="75%" height="75%" /></div>
+<div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/Advertiser&Yeahmobi_Integration.png" width="75%" height="75%" /></div>
 
 - User click the advertisement, and Yeahmobi system collect the click data.
 - Yeahmobi system filter the click data by Geo/Platform/device_os and other filter condition. The click which matchs the condition will redirect to advertiser system.
