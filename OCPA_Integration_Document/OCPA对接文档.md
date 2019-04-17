@@ -1,16 +1,17 @@
 ## Yeahmobi OCPA 对接文档
 
 ### 名词定义
-YM：泛指Yeahmobi
-CS：客户系统(Web/App)或追踪平台系统
-OCPA：optimize cost per action
-EVENT：事件action具体内容
+YM：泛指Yeahmobi   
+CS：客户系统(Web/App)或追踪平台系统   
+OCPA：optimize cost per action   
+EVENT：事件action具体内容   
 
 ### 追踪流程说明
 <div align=center><img src="https://github.com/YmSupportDoc/YmSupportDoc/blob/master/img/OCPA_Integration.png" width="75%" height="75%" /></div>
 
 ### 接口协议
-HTTP GET接⼝
+HTTP GET接口
+
 <http://global.ymtracking.com/event>
 
 ### 参数说明
