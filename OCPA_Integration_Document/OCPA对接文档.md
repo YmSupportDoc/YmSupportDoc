@@ -36,9 +36,9 @@ Google Play Advertising ID|google_adv_id| |google_adv_id
 
 ### 示例
 #### android
-<http://global.ymtracking.com/event?event={event_name}&event_value={event_value}&transaction_id={ransactionId?yeahmobi}&unique_id={cs_traceId}&event_source=baidu&app_id={package_name}&app_ver={app_version}&click_time={click_time}&install_time={installed_time}&event_time={event_time}&device_id={device_id||android_id}&android_id={android_id}&imei={imei}&mac={mac_md5}&google_adv_id={android_advertising_id}>
+<http://global.ymtracking.com/event?event={event_name}&event_value={event_value}&transaction_id={ransactionId?yeahmobi}&unique_id={cs_traceId}&event_source=baidu&app_id={package_name}&app_ver={app_version}&click_time={click_time}&install_time={installed_time}&event_time={event_time}&device_id={device_id||android_id}&android_id={android_id}&imei={imei}&mac={mac_address}&google_adv_id={android_advertising_id}>
 #### ios
-<http://global.ymtracking.com/event?event={event_name}&event_value={event_value}&transaction_id={transactionId?yeahmobi}&unique_id={cs_traceId}_&event_source=baidu&app_id={app_store_id}&app_ver={app_version}&click_time={click_time}&install_time={installed_time}&event_time={event_time}&device_id={idfa||android_id}&idfa={idfa}&imei={imei}&mac={mac_md5}>
+<http://global.ymtracking.com/event?event={event_name}&event_value={event_value}&transaction_id={transactionId?yeahmobi}&unique_id={cs_traceId}_&event_source=baidu&app_id={app_store_id}&app_ver={app_version}&click_time={click_time}&install_time={installed_time}&event_time={event_time}&device_id={idfa||android_id}&idfa={idfa}&imei={imei}&mac={mac_address}>
 
 ### 说明
 #### 一、Direct Adv:
