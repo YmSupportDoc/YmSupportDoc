@@ -30,7 +30,7 @@
 
 Tracking Link：
 
-<https://ymtacking.link?offer_id=***&affliate_id=***&aff_sub1={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
+<https://ymtacking.link?offer_id=***&affliate_id=***&aff_sub={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
 
 ymtacking.link 为YM tracking的域名，请咨询业务经理获取详细信息
 

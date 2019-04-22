@@ -29,7 +29,7 @@
 
 Tracking Link：
 
-<https://ymtacking.link?offer_id=565252&aff_id=5256&access_key=46b48599410889950868530dab8&aff_sub1={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
+<https://ymtacking.link?offer_id=565252&aff_id=5256&access_key=46b48599410889950868530dab8&aff_sub={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
 
 ymtacking.link 为YM 异步tracking的域名，请咨询业务经理获取详细信息
 

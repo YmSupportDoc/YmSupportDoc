@@ -33,7 +33,7 @@ link example：
 
 Tracking Link：
 
-<https://global.ymtacking.link?offer_id=565252&aff_id=5256&&aff_sub1={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
+<https://global.ymtacking.link?offer_id=565252&aff_id=5256&&aff_sub={clickid}&sub_affiliate_id={publisherid}&idfa={idfa}&google_adv_id={gaid}&aff_sub6={appname}>
 
 ymtacking.link is the domain of ym tracking link, please contact account manager for detail information
 
